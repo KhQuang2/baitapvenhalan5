@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kiểm tra</title>
+
+        <style>
+            label{
+                line-height: 50px;
+            }
+        #box{
+            background-color: red;
+            width: 500px;
+        }
+        input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 15px;
+}
+        </style>
+    </head>
+    <body>
+        <div id="box">
+            <h2 style="color: white;font-family: cursive;">Thông Tin Người Dùng Trước Khi Vào Web</h2>
+           
+    </div>
+    <form style="font-size: larger;">
+        <fieldset>
+        <label for="hovaten">Tên của bạn:  </label> <input type="text" id="hoten"><br>
+        <label for="gioitinh">Giới tính: </label>
+        <input type="radio" id="nam" name="gioitinh" value="nam">Nam
+        <input type="radio" id="nu" name="gioitinh" value="nu">Nữ
+        <br>
+        <label for="mucdich">Mục đích vào web:</label>
+        <select id="mucdich" name="mucdich">
+            <option value="a">Giải trí</option>
+            <option value="b">Tìm hiểu</option>
+            <option value="c">Nghe nhạc </option>
+
+        </select>
+        <br>
+        <label for="age">Tuổi: </label><br>
+        <input type="checkbox">0-10 tuổi<br>
+        <input type="checkbox">10-20 tuổi<br>
+        <input type="checkbox">20-30 tuổi<br>
+        <input type="checkbox">trên 30 tuổi<br><br>
+        <input type="submit" value="Gửi">
+
+    </fieldset>
+    </form>
+    <a href="index2.html">Sang trang chính</a>
+    </body>
+</html>
